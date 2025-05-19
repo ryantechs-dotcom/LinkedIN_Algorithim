@@ -55,7 +55,7 @@ Raw Data (3GB+) ─▶ S3 ─▶ EMR Cluster ─▶ PySpark + Word2Vec Embedding
 4. **Model Management**:
    - Stored training checkpoints, embeddings, and results in S3 for tracking and reproducibility.
 
-## ✅ Results (Sample)
+## ✅ Results
 
 - Improved prediction accuracy over baseline KNN by 90%.
 - Enabled scalable training over 3GB dataset without local resource limits.
