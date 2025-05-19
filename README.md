@@ -22,11 +22,11 @@ This project is a large-scale job recommendation engine inspired by LinkedIn, de
 
 ## ⚙️ Architecture
 Raw Data (3GB+) ─▶ S3 ─▶ EMR Cluster ─▶ PySpark + Word2Vec Embeddings
-│
-├──▶ KNN (Collaborative Filtering)
-└──▶ TensorFlow Neural Network
-│
-─▶ Job Predictions ─▶ Output to S3
+                                                    │
+                                                    ├──▶ KNN (Collaborative Filtering)
+                                                    └──▶ TensorFlow Neural Network
+                                                    │
+                                                    ─▶ Job Predictions ─▶ Output to S3
 
 
 ## 🛠️ Tools & Libraries
